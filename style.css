@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bodoni+Moda:wght@400;900&family=Dancing+Script&family=Delicious+Handrawn&family=Henny+Penny&family=Lato:wght@700&family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Abril Fatface', cursive;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    background-color: #3498db;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(bg-image_box.jpg);
+    background-repeat:space;
+    background-size: contain;
+
+}
+
+.box{
+    width: 600px ;
+    min-height: 500px ;
+    background-color: whitesmoke;
+    border-radius : 5px;
+    padding: 15px;
+    background-image: url(todoList_bg_img.jpeg);
+    background-size: cover;
+
+}
+
+#item{
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    outline: 0;
+    border: none;
+    box-shadow: 0px 0px 2px grey;
+    display: inline;
+}
+
+#to-do-box li{
+    list-style: none;
+    margin-top: 10px;
+}
+
+#to-do-box li{
+    position: relative;
+    background-color: #3c3e50;
+    color: white;
+    padding: 10px;
+    padding-right: 25px;
+    text-align: justify;
+    /* user-select: none ;     */
+    
+}
+
+#to-do-box li i{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.done{
+    text-decoration: line-through;
+    color: black;
+    background-color: #4345578e !important;
+    
+    
+}
